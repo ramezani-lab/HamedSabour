@@ -1,0 +1,10 @@
+system,query,n_runs,median_latency_s,stdev_latency_s,median_result,median_relative_error_pct,max_relative_error_pct,fraction_exceeding_5pct_bound
+PilotDB-exact,Q1,15,0.2934,0.0145,446031203850,,,
+PilotDB-aqp,Q1,15,0.4093,0.0228,446031203850,0.0,0.0,0.0
+PilotDB-exact,Q2,15,0.2821,0.0143,98714004603,,,
+PilotDB-aqp,Q2,15,0.4117,0.0283,98714004603,0.0,0.0,0.0
+PilotDB-exact,Q3,15,0.2864,0.0147,847206595245,,,
+PilotDB-aqp,Q3,15,0.4261,0.0188,847206595245,0.0,0.0,0.0
+FAAQP,Q1,15,0.3399,0.0242,,0.4193,,
+FAAQP,Q2,15,0.0448,0.0022,,1.8354,,
+FAAQP,Q3,15,0.0303,0.0021,,0.1317,,

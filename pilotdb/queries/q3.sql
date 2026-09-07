@@ -1,0 +1,1 @@
+SELECT sum(lo_extendedprice * lo_discount) FROM lineorder, dwdate WHERE lo_orderdate = d_datekey and d_year = 1994 and lo_discount >= 5 and lo_discount <= 7 and lo_quantity >= 36 and lo_quantity <= 40;
